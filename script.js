@@ -38,12 +38,13 @@ function showTab(tabName) {
         display.innerHTML = 
             <h3>Memories</h3>
             <div class="gallery-grid">
-                <img src="images/1.jpg" class="gallery-img">
-                <img src="images/2.jpg" class="gallery-img">
-                <img src="images/3.jpg" class="gallery-img">
-                <img src="images/4.jpg" class="gallery-img">
+                <img src="dia1.jpg" class="gallery-img">
+                <img src="dia2.jpg" class="gallery-img">
+                <img src="dia3.jpg" class="gallery-img">
+                <img src="dia4.jpg" class="gallery-img">
             </div>;
     } else if (tabName === 'letter') {
         display.innerHTML = <h3>Letter</h3><p>Happy Birthday! You mean the world to me...</p>;
     }
 }
+
